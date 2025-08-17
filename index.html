@@ -3,51 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>E-commerce-web</title>
+    <title>MD Akib Islam - Portfolio</title>
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 <body>
-    <header>
-        <h1>Welcome to Our E-commerce Website</h1>
-        <nav>
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#products">Products</a></li>
-                <li><a href="#about">About Us</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-        </nav>
-    </header> 
-    <main>
-        <section>
-            <h2>Featured Products</h2>
-            <div class="product-list">
-                <article class="product-item">
-                    <h3>Monipuri Saree (Manipuri Saree)</h3>
-                    <p>Monipuri Saree – <br> A handwoven traditional saree known for its light fabric, <br>
-                     elegant floral & geometric designs, <br> 
-                     and vibrant borders. Perfect for festivals, weddings, and everyday elegance.</p>
-                    <p>Price: $15–16.5</p>
-                    <a href="mailto:ghostake.akib@gmail.com">Mail To Buy</a>
-                </article>
-                <article class="product-item">
-                    <h3>Jamdani Saree</h3>
-                    <p>Fine muslin sarees with intricate woven patterns, known for luxury and artistry.</p>
-                    <p>Price: $20.00</p>
-                    <a href="mailto:ghostake.akib@gmail.com">Mail To Buy</a>
-                </article>
-                <article class="product-item">
-                    <h3>Banarasi Saree</h3>
-                    <p>Rich silk sarees with gold/silver zari work, perfect for weddings and grand occasions.</p>
-                    <p>Price: $30.00</p>
-                    <a href="mailto:ghostake.akib@gmail.com">Mail To Buy</a>
-                </article>
-            </div>
-        </section>
-    </main>  
+    <!-- Animated Background -->
+    <div class="bg-animation" id="bg-animation"></div>
 
-    <footer>
-        <p>&copy; 2023 E-commerce Website. All rights reserved.</p>
-        <p>Contact us at: <a href="mailto:ghostake.akib@gmail.com">Ghostake.akib@gmail.com</a></p>
-    </footer>
+    <!-- Navigation -->
+    <nav>
+        <div class="nav-container">
+            <a href="index.html" class="logo">MD Akib <span>Islam</span></a>
+            <ul class="nav-links">
+                <li><a href="index.html">Home</a></li>
+                <li><a href="about.html">About</a></li>
+                <li><a href="projects.html">Projects</a></li>
+                <li><a href="contact.html">Contact</a></li>
+            </ul>
+            <div class="hamburger">
+                <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round">
+                    <line x1="3" y1="12" x2="21" y2="12"></line>
+                    <line x1="3" y1="6" x2="21" y2="6"></line>
+                    <line x1="3" y1="18" x2="21" y2="18"></line>
+                </svg>
+            </div>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home">
+        <div class="hero-content">
+            <h1>Hi, I'm <span>MD Akib Islam</span></h1>
+            <p>Frontend Developer & Graphic Designer creating beautiful, functional digital experiences</p>
+            <div class="btn-container">
+                <a href="projects.html" class="btn">View My Work</a>
+                <a href="contact.html" class="btn btn-outline">Contact Me</a>
+            </div>
+        </div>
+    </section>
+
+    <script src="assets/js/script.js"></script>
 </body>
 </html>
